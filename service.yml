@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sandbox
+  namespace: default
+spec:
+  ports:
+    - name: http
+      protocol: TCP
+      port: 3080
+      nodePort: 32115
+  selector:
+    app: sandbox
+  type: NodePort

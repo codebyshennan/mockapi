@@ -1,0 +1,652 @@
+[{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebab"
+  },
+  "name": "Notification Service API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebac"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357659"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357835"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebad"
+  },
+  "name": "Circle Wallet Service API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebae"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357836"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357838"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebaf"
+  },
+  "name": "Telco",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebb0"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357839"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357853"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebb1"
+  },
+  "name": "TMF621-Trouble Ticket",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebb2"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357853"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357859"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebb3"
+  },
+  "name": "Inventory Management System",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebb4"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357860"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357872"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebb5"
+  },
+  "name": "Mobile-API Backend Documentation",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebb6"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357873"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357886"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebb7"
+  },
+  "name": "CHF Stats API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebb8"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357886"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357888"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebb9"
+  },
+  "name": "Payment",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebba"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357889"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357891"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebbb"
+  },
+  "name": "TMF678-Customer Bill",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebbc"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357892"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357895"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebbd"
+  },
+  "name": "Circles LAAS application",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebbe"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357896"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357897"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebbf"
+  },
+  "name": "Circles BSS Customer Management",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebc0"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357898"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357901"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebc1"
+  },
+  "name": "Billing API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebc2"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357901"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357905"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebc3"
+  },
+  "name": "Quilt Swagger",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebc4"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357908"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357910"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebc5"
+  },
+  "name": "User Service API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebc6"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357911"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357920"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebc7"
+  },
+  "name": "MNP Service APIs",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebc8"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357920"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357923"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebc9"
+  },
+  "name": "Circles Scheduler API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebca"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357924"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357925"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebcb"
+  },
+  "name": "Discover API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebcc"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357925"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357932"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebcd"
+  },
+  "name": "External OMS API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebce"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357933"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357934"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebcf"
+  },
+  "name": "Circles-Sphere API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebd0"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357934"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357937"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebd1"
+  },
+  "name": "TMF629-Customer Management",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebd2"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357937"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357940"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebd3"
+  },
+  "name": "Circles DNS",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebd4"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357940"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357942"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebd5"
+  },
+  "name": "Rewards API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebd6"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357942"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357943"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebd7"
+  },
+  "name": "Shop",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebd8"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357943"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357944"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebd9"
+  },
+  "name": "5G BF API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebda"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357944"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357946"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebdb"
+  },
+  "name": "BSSMW API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebdc"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357947"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357947"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebdd"
+  },
+  "name": "Circles Cart service",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebde"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357948"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357949"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebdf"
+  },
+  "name": "TMF677-Usage Consumption",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebe0"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357949"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357952"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebe1"
+  },
+  "name": "ABMF API",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebe2"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357952"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357953"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebe3"
+  },
+  "name": "Liberty VoIP",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebe4"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357953"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357955"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebe5"
+  },
+  "name": "Circles Orbit",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebe6"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357955"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357956"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6311594daa3a4a58c00cebe7"
+  },
+  "name": "MNOMW-SG Mock Mock",
+  "desc": "",
+  "swaggerRefs": [
+    {
+      "$oid": "6311594daa3a4a58c00cebe8"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662081357956"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1662081357958"
+    }
+  }
+}]

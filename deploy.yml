@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sandbox
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: sandbox
+  template:
+    metadata:
+      labels:
+        app: sandbox
+    spec:
+      containers:
+        - name: sandbox
+          image: harbor.circles.life/labs/sandbox:{{VERSION}}
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 3080
+          env:
+            - name: MONGO_URI
+              value: { { MONGO_URI } }
+      imagePullSecrets:
+        - name: harborlabs
