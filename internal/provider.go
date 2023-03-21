@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
-	"bitbucket.org/libertywireless/circles-sandbox/internal/models"
+	"github.com/codebyshennan/mockapi/domain"
+	"github.com/codebyshennan/mockapi/internal/models"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

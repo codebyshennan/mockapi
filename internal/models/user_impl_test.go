@@ -3,8 +3,8 @@ package models
 import (
 	"testing"
 
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
-	"bitbucket.org/libertywireless/circles-sandbox/domain/mocks"
+	"github.com/codebyshennan/mockapi/domain"
+	"github.com/codebyshennan/mockapi/domain/mocks"
 )
 
 var userModel = UserModel{

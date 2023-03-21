@@ -3,7 +3,7 @@ package internal
 import (
 	"os"
 
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
+	"github.com/codebyshennan/mockapi/domain"
 	"github.com/sirupsen/logrus"
 )
 

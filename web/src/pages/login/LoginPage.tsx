@@ -62,9 +62,9 @@ function LoginPage() {
               margin: '0 auto'
             }}
           >
-            Circles Sandbox
+            API Sandbox
             <br />
-            <Box style={{ fontSize: '50%' }}>Circles 5G API Sandbox</Box>
+            <Box style={{ fontSize: '50%' }}>Mock API Server</Box>
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>

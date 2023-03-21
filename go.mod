@@ -1,4 +1,4 @@
-module bitbucket.org/libertywireless/circles-sandbox
+module github.com/codebyshennan/mockapi
 
 go 1.18
 

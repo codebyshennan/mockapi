@@ -3,7 +3,7 @@ package models
 import (
 	"context"
 
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
+	"github.com/codebyshennan/mockapi/domain"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

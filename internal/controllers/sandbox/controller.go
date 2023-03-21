@@ -3,8 +3,8 @@ package sandbox
 import (
 	"net/http"
 
-	"bitbucket.org/libertywireless/circles-sandbox/internal"
-	"bitbucket.org/libertywireless/circles-sandbox/internal/common/h"
+	"github.com/codebyshennan/mockapi/internal"
+	"github.com/codebyshennan/mockapi/internal/common/h"
 )
 
 type SandboxController struct {

@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
+	"github.com/codebyshennan/mockapi/domain"
 )
 
 // Checks if a file exists and is not a directory

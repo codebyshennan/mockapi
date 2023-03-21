@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
-	"bitbucket.org/libertywireless/circles-sandbox/internal"
-	"bitbucket.org/libertywireless/circles-sandbox/internal/common/h"
 	"github.com/cbroglie/mustache"
+	"github.com/codebyshennan/mockapi/domain"
+	"github.com/codebyshennan/mockapi/internal"
+	"github.com/codebyshennan/mockapi/internal/common/h"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

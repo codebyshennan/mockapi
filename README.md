@@ -1,4 +1,4 @@
-# Circles Sandbox V2
+# Mock API Server
 
 ## Quick Start
 
@@ -30,13 +30,11 @@ Holds the code for frontend, which is written in React. See the README in `/web`
 ## Tech Stack
 
 FE: React
-
 BE: Golang, with `go-chi` and `logrus` being notable dependencies
-
 DB: MongoDB
 
 ## Getting an instance of MongoDB
 
 Local Instance:
 
-- https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
+- <https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/>

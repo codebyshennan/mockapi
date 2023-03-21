@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
-	"bitbucket.org/libertywireless/circles-sandbox/internal/common/h"
+	"github.com/codebyshennan/mockapi/domain"
+	"github.com/codebyshennan/mockapi/internal/common/h"
 	"github.com/golang-jwt/jwt"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"google.golang.org/api/idtoken"

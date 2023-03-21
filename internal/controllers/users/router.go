@@ -1,8 +1,8 @@
 package users
 
 import (
-	"bitbucket.org/libertywireless/circles-sandbox/internal"
-	mw "bitbucket.org/libertywireless/circles-sandbox/internal/mw"
+	"github.com/codebyshennan/mockapi/internal"
+	mw "github.com/codebyshennan/mockapi/internal/mw"
 	"github.com/go-chi/chi/v5"
 )
 

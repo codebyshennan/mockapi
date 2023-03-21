@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
-	"bitbucket.org/libertywireless/circles-sandbox/internal"
+	"github.com/codebyshennan/mockapi/domain"
+	"github.com/codebyshennan/mockapi/internal"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

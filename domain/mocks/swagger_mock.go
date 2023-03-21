@@ -1,6 +1,6 @@
 package mocks
 
-import "bitbucket.org/libertywireless/circles-sandbox/domain"
+import "github.com/codebyshennan/mockapi/domain"
 
 type SwaggerMock struct{}
 

@@ -3,9 +3,9 @@ package mockservers
 import (
 	"net/http"
 
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
-	"bitbucket.org/libertywireless/circles-sandbox/internal"
-	"bitbucket.org/libertywireless/circles-sandbox/internal/common/h"
+	"github.com/codebyshennan/mockapi/domain"
+	"github.com/codebyshennan/mockapi/internal"
+	"github.com/codebyshennan/mockapi/internal/common/h"
 	"github.com/go-chi/chi/v5"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

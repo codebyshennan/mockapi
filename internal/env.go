@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
+	"github.com/codebyshennan/mockapi/domain"
 )
 
 // Read env variables

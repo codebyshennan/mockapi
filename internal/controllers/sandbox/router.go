@@ -3,9 +3,9 @@ package sandbox
 import (
 	"net/http"
 
-	"bitbucket.org/libertywireless/circles-sandbox/internal"
+	"github.com/codebyshennan/mockapi/internal"
 
-	mw "bitbucket.org/libertywireless/circles-sandbox/internal/mw"
+	mw "github.com/codebyshennan/mockapi/internal/mw"
 )
 
 func NewSandboxHandler(p *internal.Provider, mw *mw.MiddlewareProvider) http.HandlerFunc {

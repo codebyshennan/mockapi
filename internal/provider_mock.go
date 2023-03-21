@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"bitbucket.org/libertywireless/circles-sandbox/domain"
-	"bitbucket.org/libertywireless/circles-sandbox/domain/mocks"
+	"github.com/codebyshennan/mockapi/domain"
+	"github.com/codebyshennan/mockapi/domain/mocks"
 )
 
 func NewMockProvider() Provider {

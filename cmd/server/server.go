@@ -3,7 +3,7 @@ package main
 import (
 	"embed"
 
-	server "bitbucket.org/libertywireless/circles-sandbox/internal/server"
+	server "github.com/codebyshennan/mockapi/internal/server"
 )
 
 //go:embed static
