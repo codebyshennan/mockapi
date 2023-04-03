@@ -19,19 +19,13 @@ import (
 )
 
 var origins = []string{
-	"https://sg-kirk.circles.life:7443",
-	"http://localhost:3000",
-	"https://qsg-sandbox.circles.life",
-	"https://psg-sandbox.circles.life",
-	"https://qsg-cmsui.circles.life",
-	"https://qsg-sandbox-01.circles.life",
-	"https://ssg-sandbox.circles.life"}
+	"*"}
 
 func RunServer(static embed.FS) {
 	// setup dependencies
 	provider := internal.NewProvider()
 	if provider == nil {
-
+		return
 	}
 
 	middlewareProvider := mw.NewMiddlewareProvider(provider)
@@ -49,7 +43,9 @@ func RunServer(static embed.FS) {
 
 	// setup subrouters
 	rtr.Use(middleware.Logger)
+
 	rtr.Mount("/api", NewApiRouter(provider, middlewareProvider))
+
 	rtr.Mount("/sandbox", sandbox.NewSandboxHandler(provider, middlewareProvider))
 	// rtr.Mount("/sandboxProfile", http.HandlerFunc(sandboxProfileSvc.SandboxProfileHandler))
 

@@ -7,13 +7,36 @@ Structs in this directory implements the interfaces specified in the `/domain` d
 
 ![Diagram](./uml.png)
 
-Legend:
+This application follows the `Controller-Service-Repository` pattern (a lot of inspiration from `Laravel` and `Spring`), with the following:
 
-- Yellow: interfaces in the `/domain` directory
-- Dark grey: external dependencies
-- Light grey: implementations in the `/internal` directory
-- Blue: Provider
-- Green: Controllers
+    Legend:
+
+    - Green: Controllers
+    - Blue: Service Provider
+    - Light grey: implementations in the `/internal` directory
+    - Yellow: interfaces in the `/domain` directory
+    - Dark grey: external dependencies
+
+## Explanation
+
+![Controller-Service-Repository Pattern](./ctrl_svc_repo.webp)
+
+### Controller
+
+The Controller layer, at the top of this picture, is solely responsible for exposing the functionality so that it can be consumed by external entities (including, perhaps, a UI component). If someone wants to access this business logic, they go through a Controller to get there. The Controller layer is the only layer that should know about the HTTP protocol, and is just passing the work down to the `Service` layer.
+
+### Service
+
+The Service layer is where all the business logic should go. This layer is responsible for orchestrating the flow of data between the Controller and the Repository layers. The service layer does not know anything about the database, and should not know anything about the HTTP protocol. If the business logic requires fetching/saving data, it wires in a Repository. This layer can also be tested as a POJO, and by mocking the repository, you can test the business logic without having to worry about the database. Services will have `repositories` injected into them, and can query multiple `Repository` gorups and combine their data to form new, more complex business objects.
+
+### Repository
+
+The Repository layer, at the bottom of this picture, is responsible for storing and retrieving some set of data. This layer is the only layer that should know about the database.
+If the business logic requires fetching/saving data, it wires in a Repository. These classes handle getting data into and out of our data store, with the important caveat that each Repository only works against a single Model class. This means that if you need to fetch data from multiple models, you need to use multiple Repositories. This is a good thing, because it means that each Repository is only responsible for a single thing, and is therefore easier to test and maintain.
+
+### Models
+
+The models are the data structures that are used to store data in the database. These models are defined in the `/domain` directory, and are used by the Repository layer to store and retrieve data.
 
 ## Directory Overview
 
@@ -101,8 +124,8 @@ With this, the dependents depend on the `domain.ILogger` interface rather than t
 
 ```go
     // in Provider.go
-	p.UserRepo = models.NewUserModel(
-		p.Db.Collection("users"), p.Logger)
+ p.UserRepo = models.NewUserModel(
+  p.Db.Collection("users"), p.Logger)
     // where p.Db.Collection("users") returns *mongo.Collection
 
     // in /internal/models/user_impl.go

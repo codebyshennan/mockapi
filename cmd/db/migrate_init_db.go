@@ -30,17 +30,17 @@ func main() {
 
 	// fetch all services in old db
 	svcColl := provider.Db.Collection("svcs_1")
-	cursor, err := svcColl.Find(context.Background(), map[string]any{})
+	cursor, _ := svcColl.Find(context.Background(), map[string]any{})
 	svcs := make([]serviceDb, 0)
-	if err = cursor.All(context.TODO(), &svcs); err != nil {
+	if err := cursor.All(context.TODO(), &svcs); err != nil {
 		return
 	}
 
 	// fetch all swaggers in old db
 	swaggerColl := provider.Db.Collection("swaggers_1")
-	cursor, err = swaggerColl.Find(context.Background(), map[string]any{})
+	cursor, _ = swaggerColl.Find(context.Background(), map[string]any{})
 	swaggers := make([]swaggerDb, 0)
-	if err = cursor.All(context.TODO(), &swaggers); err != nil {
+	if err := cursor.All(context.TODO(), &swaggers); err != nil {
 		return
 	}
 
@@ -58,6 +58,7 @@ func main() {
 		if err != nil {
 			return
 		}
+
 		for _, swagger := range swaggers {
 			if swagger.Id == id {
 				fmt.Println("Matched ", swagger.Id)
